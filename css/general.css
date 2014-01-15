@@ -6,5 +6,13 @@ html {
 }
 
 h1 {
+	font-family: "atrament-web",sans-serif;
+	font-weight: 300;
+	color: rgb(235,221,181);
+}
+
+p {
+	font-family: "atrament-web",sans-serif;
+	font-weight: 700;
 	color: rgb(130,85,30);
 }
