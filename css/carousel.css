@@ -1,0 +1,82 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+.slide-show {
+	background-color: rgb(235,221,181);
+	margin-top: 3em;
+	position:absolute;
+	left:0;
+	right:0;
+}
+
+.carousel {
+	padding-bottom: 52.63%; /* image aspect ratio: height / width = 100 */
+	position: relative;	
+	width: 202px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 3em;
+}
+
+.carousel-items img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+.carousel-items [data-state="current"] {
+	z-index: 100;
+}
+
+.carousel-items [data-state="incoming"] {
+	z-index: 101;
+}
+
+.carousel-buttons {
+	position: absolute;
+	z-index: 1000;
+}
+
+@media only screen and (min-width: 25em) {
+	
+	.carousel {
+		width: 320px;
+		margin-top: 4em;
+	}
+
+}
+
+@media only screen and (min-width: 38em) {
+	
+	.slide-show {
+		margin-top: 6em;
+	}
+	
+	.carousel {
+		width: 500px;
+		margin-top: 6em;
+	}
+	
+}
+
+@media only screen and (min-width: 58em) {
+	
+	.carousel {
+		width: 830px;
+		margin-top: 8em;
+	}
+	
+}
+
+@media only screen and (min-width: 82em) {
+	
+	.carousel {
+		width: 1200px;
+		margin-top: 10em;
+	}
+	
+}
