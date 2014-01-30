@@ -1,0 +1,30 @@
+@charset "UTF-8";
+/* CSS Document */
+
+dialog {
+	border: 2px solid rgb(235,221,181);
+}
+
+dialog::backdrop {
+	background-color: rgb(2,17,40);
+}
+
+dialog + .backdrop {
+	background-color: rgb(2,17,40);
+	opacity: 0.9;
+}
+
+#btn-close {
+	width: 32px;
+	height: 32px;
+	text-align: center;
+	line-height: 24px;
+	border: 2px solid rgb(235,221,181);
+	background-color: #000;
+	color: rgb(235,221,181);
+	font-weight: bold;
+	cursor: pointer;
+	position: absolute;
+	top: -16px;
+	right: -16px;
+}
