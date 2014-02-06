@@ -2,7 +2,7 @@
 /* CSS Document */
 
 dialog {
-	border: 2px solid rgb(235,221,181);
+	border: 2px solid rgb(2,17,40);
 }
 
 dialog::backdrop {
@@ -17,11 +17,12 @@ dialog + .backdrop {
 #btn-close {
 	width: 32px;
 	height: 32px;
+	border-radius: 16px;
 	text-align: center;
 	line-height: 24px;
-	border: 2px solid rgb(235,221,181);
-	background-color: #000;
-	color: rgb(235,221,181);
+	border: 2px solid rgb(2,17,40);
+	background-color: rgb(130,85,30);
+	color: rgb(2,17,40);
 	font-weight: bold;
 	cursor: pointer;
 	position: absolute;

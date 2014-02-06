@@ -1,0 +1,118 @@
+@charset "UTF-8";
+/* CSS Document */
+
+animation {
+	margin: 0;
+	padding: 0;
+	font: normal 100%/1.5 Georgia, serif;
+	background-color: #eae8e1;
+}
+
+li {
+	display: block;
+	margin: 0 auto;
+}
+
+section {
+	padding: 10rem 0;
+}
+
+@-ms-keyframes ship-fly {
+	
+	0% {
+		opacity: 0;
+		-ms-transform: translateY(140px);
+	}
+	
+	40% {
+		opacity: 1;
+	}
+	
+	100% {
+		opacity: 1;
+		-ms-transform: translateY(0);
+	}
+	
+}
+
+@-moz-keyframes ship-fly {
+	
+	0% {
+		opacity: 0;
+		-moz-transform: translateY(140px);
+	}
+	
+	40% {
+		opacity: 1;
+	}
+	
+	100% {
+		opacity: 1;
+		-moz-transform: translateY(0);
+	}
+	
+}
+
+@-o-keyframes ship-fly {
+	
+	0% {
+		opacity: 0;
+		-o-transform: translateY(140px);
+	}
+	
+	40% {
+		opacity: 1;
+	}
+	
+	100% {
+		opacity: 1;
+		-o-transform: translateY(0);
+	}
+	
+}
+
+@-webkit-keyframes ship-fly {
+	
+	0% {
+		opacity: 0;
+		-webkit-transform: translateY(140px);
+	}
+	
+	40% {
+		opacity: 1;
+	}
+	
+	100% {
+		opacity: 1;
+		-webkit-transform: translateY(0);
+	}
+	
+}
+
+.js-ships-animate {
+	-ms-animation: ship-fly 1s ease-out 1 forwards;
+	-moz-animation: ship-fly 1s ease-out 1 forwards;
+	-o-animation: ship-fly 1s ease-out 1 forwards;
+	-webkit-animation: ship-fly 1s ease-out 1 forwards;
+}
+
+.js-ship-delay-1 {
+	-ms-animation-delay: 100ms;
+	-moz-animation-delay: 100ms;
+	-o-animation-delay: 100ms;
+	-webkit-animation-delay: 100ms;	
+}
+
+.js-ship-delay-2 {
+	-ms-animation-delay: 200ms;
+	-moz-animation-delay: 200ms;
+	-o-animation-delay: 200ms;
+	-webkit-animation-delay: 200ms;	
+}
+
+.js-ship-delay-3 {
+	-ms-animation-delay: 250ms;
+	-moz-animation-delay: 250ms;
+	-o-animation-delay: 250ms;
+	-webkit-animation-delay: 250ms;	
+}
